@@ -1,0 +1,24 @@
+/* * **The first element**: a black background, white text color, and a bold font weight
+* **The second element**: a yellow background
+* **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback  */
+
+.button {font-family: Helvetica, Times New Roman,sans-serif;
+font-size: 28;}
+
+.first {
+    background-color:black;
+    color: white;
+    font-weight: 800;
+}
+
+.first:hover {
+    background-color: navajowhite;
+}
+
+.second {
+    background-color: yellow;
+}
+
+.second:hover{
+    background-color: green;
+}
